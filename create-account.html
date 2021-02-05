@@ -45,7 +45,7 @@
   <!-- End of Header -->
 
   <!-- Section Create Account -->
-  <section class="create-account">
+  <!-- <section class="create-account form-1">
     <h1 class="title">Create Your Account</h1>
     <form name="form1">
       <div class="container-form">
@@ -69,8 +69,41 @@
           <input type="submit" value="Submit" class="submit-btn" onclick="sub();" required>
         </div>
     </form>
-  </section>
-
+  </section> -->
+  <section class="create-account">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <h1 class="title">Create Your Account</h1>
+                <form name="form1">
+                    <div class="container-form">
+                        <div class="contact-form row">
+                            <div class="form-field col-lg-6">
+                                <input type="text" id="name" class="input-text" required>
+                                <label for="name" class="label">Name</label>
+                            </div>
+                            <div class="form-field col-lg-6">
+                                <input type="password" id="password" class="input-text" required>
+                                <label for="password" class="label">Password</label>
+                            </div>
+                            <div class="form-field col-lg-6">
+                                <input type="text" id="email" class="input-text" pattern="[^ @]*@[^ @]*.com"
+                                    required>
+                                <label for="email" class="label">E-Mail</label>
+                            </div>
+                            <div class="form-field col-lg-6">
+                                <input type="text" id="phone" class="input-text" required>
+                                <label for="phone" class="label">Phone Number</label>
+                            </div>
+                            <input type="submit" value="Submit" class="submit-btn" onclick="sub();" required>
+                        </div>
+                </form>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+    </div>
+</section>
   <!-- End Of Section Search -->
 
   <!-- Main Content -->
@@ -86,7 +119,6 @@
         <button class="btn btn-warning"> Learn More </button>
       </div>
     </div>
-
     <div class="card-content row justify-content-between ">
       <div class="col-lg-3">
         <div class="card my-4 card-panel">
