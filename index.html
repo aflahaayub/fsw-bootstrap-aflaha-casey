@@ -40,85 +40,155 @@
       <div class="text-area">
         <h1>Let's Travel <span>With Us</span></h1>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis unde dolores animi ex qui magnam
-          repellendus, eius maxime natus. Adipisci eos odio est cum vitae unde explicabo praesentium quaerat earum!</p>
+          repellendus, eius maxime natus. </p>
       </div>
     </div>
   </header>
   <!-- End of Header -->
 
-  <!-- Container -->
-  <div class="container container-info">
-    <div class="row justify-content-center">
-      <div class="col-10 info-panel">
-        <div class="row justify-content-around py-3 ">
-          <div class="col-lg-3"><label for="from">From</label></div>
-          <div class="col-lg-3"><label for="to">To</label></div>
-          <div class="col-lg-3"><label for="date">Expected Date</label></div>
-        </div>
-        <div class="row justify-content-around pb-3">
+  <!-- Section Search Panel -->
+  <section class="container container-info">
+    <div class="info-panel mb-3">
+      <form action="#">
+        <div class="row justify-content-center py-2">
           <div class="col-lg-3">
-            <input type="text" id="from" placeholder="Jakarta">
+            <div class="d-flex flex-lg-column justify-content-between pb-3">
+              <label for="from" class="py-2">From</label>
+              <input type="text" id="from" placeholder="Jakarta">
+            </div>
           </div>
-          <div class="col-lg-3"><input type="text" id="to" placeholder="Toronto"></div>
-          <div class="col-lg-3"><input type="date" id="date"></div>
+          <div class="col-lg-3">
+            <div class="d-flex flex-lg-column justify-content-between pb-3">
+              <label for="to" class="py-2">To</label>
+              <input type="text" id="to" placeholder="Toronto">
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="d-flex flex-lg-column justify-content-between pb-3">
+              <label for="date" class="py-2">Expected Date</label>
+              <input type="date" id="date">
+            </div>
+          </div>
+          <div class="col-3 center-button">
+            <div class="d-flex flex-md-column justify-content-center">
+              <button type="submit" class="btn btn-warning mt-3 ms-3">Search</button>
+            </div>
+
+          </div>
         </div>
-        <div class="d-grid gap-2 col-6 mx-auto">
-          <!-- <button class="btn btn-primary" type="button">Button</button> -->
-          <button type="submit" class="btn btn-warning mb-3">Search</button>
+      </form>
+    </div>
+  </section>
+  <!-- End Of Section Search -->
+
+  <!-- Main Content -->
+  <main class="container ">
+    <div class="row main-content">
+      <div class="col-lg-6 left-sect">
+        <p class="sub-head">About Us</p>
+        <h2>Explore All Corners<br> Of The World With Us </h1>
+      </div>
+      <div class="col-lg-6 right-sect">
+        <p class="content">We always make our customers happy by providing the best destination as many choices as
+          possible for you with the advantages that have never been seen anywhere else! </p>
+        <button class="btn btn-warning"> Learn More </button>
+      </div>
+    </div>
+
+    <div class="card-content row justify-content-between ">
+      <div class="col-lg-3">
+        <div class="card my-4 card-panel">
+          <a href="#">
+            <img
+              src="
+          https://images.unsplash.com/photo-1542704792-e30dac463c90?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+              class="card-img-top" alt="Toronto">
+          </a>
+          <div class="card-body">
+            <h3 class="card-title">
+              <a href="#">Enjoy the beauty of Toronto </a>
+            </h3>
+            <p>Toronto, Canada</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="card my-4 card-panel">
+          <a href="#">
+            <img
+              src="
+              https://images.unsplash.com/photo-1545569341-9eb8b30979d9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+              class="card-img-top" alt="Kyoto">
+          </a>
+          <div class="card-body">
+            <h3 class="card-title">
+              <a href="#">Enjoy the beauty of Kyoto </a>
+            </h3>
+            <p>Kyoto, Japan</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="card my-4 card-panel">
+          <a href="#">
+            <img
+              src="
+              https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+              class="card-img-top" alt="New York">
+          </a>
+          <div class="card-body">
+            <h3 class="card-title">
+              <a href="#">Enjoy the beauty of New York </a>
+            </h3>
+            <p>New York, United States</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="card my-4 card-panel">
+          <a href="#">
+            <img
+              src="
+              https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80"
+              class="card-img-top" alt="Istanbul">
+          </a>
+          <div class="card-body">
+            <h3 class="card-title">
+              <a href="#">Enjoy the beauty of Istanbul </a>
+            </h3>
+            <p>Istanbul, Turkey</p>
+          </div>
         </div>
       </div>
 
     </div>
-  </div>
+  </main>
+  <!-- End Of Main Content -->
 
-  <!-- End Of Container -->
+  <!-- Footer -->
 
-  <!-- <section>
-    <div class="container m-5">
-      <h1 class="text-center mb-3">Popular Destination</h1>
-      <div class="row d-flex justify-content-around mt-4">
-        <div class="col-3 me-1 mb-2">
-          <div class="card" style="width: 18rem;">
-            <img
-              src="https://images.unsplash.com/photo-1612018072593-479fe3f1bd3f?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDEzfGJvOGpRS1RhRTBZfHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
-              class="card-img-top" alt="batu">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-3 me-1 mb-2">
-          <div class="card" style="width: 18rem;">
-            <img
-              src="https://images.unsplash.com/photo-1598185092528-a88552ff8040?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDMxfGJvOGpRS1RhRTBZfHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
-              class="card-img-top" alt="sky">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-3 me-1 mb-2">
-          <div class="card" style="width: 18rem;">
-            <img
-              src="https://images.unsplash.com/photo-1553460982-e4d8b24bfdd9?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDMzfGJvOGpRS1RhRTBZfHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
-              class="card-img-top" alt="ourhome">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>
+  <footer>
+    <div class="container content-footer">
+      <h2>Subscribe To Get The Latest <br> News About Us</h2>
+      <p class="content">We recommended you to subscribe to our newspaper, enter your email below to get daily update
+        about us.</p>
+      <form action="subscribe">
+        <input type="email" placeholder="Enter your email address">
+        <button type="submit" class="btn btn-warning">Subscribe</button>
+      </form>
+      <div class="medsos">
+        <ul>
+          <li><a href="https://www.facebook.com"><img src="./img/facebook.png" alt="fb"></a></li>
+          <li><a href="https://web.whatsapp.com/"><img src="./img/whatsapp.png" alt="wa"></a></li>
+          <li><a href="https://twitter.com/twitter"><img src="./img/twitter.png" alt="twt"></a></li>
+          <li><a href="https://www.instagram.com/"><img src="./img/instagram.png" alt="ig"></a></li>
+        </ul>
       </div>
+      <h3> &copy; OurTravel 2021</h3>
+
     </div>
-  </section> -->
+  </footer>
+  <!-- end of Footer -->
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
     integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
